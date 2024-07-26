@@ -1,0 +1,11 @@
+__pycache__
+poetry.lock
+.env
+/ideas.txt
+/data
+/venv
+/plugins
+.DS_Store		
+.git			
+			
+pyproject.toml		
