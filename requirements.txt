@@ -1,0 +1,5 @@
+streamlit
+openai
+neo4j
+langchain
+ragas

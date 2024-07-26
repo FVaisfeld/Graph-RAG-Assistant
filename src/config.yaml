@@ -1,0 +1,23 @@
+hyperparameters:
+  generator_model: "gpt-4o"     # "gpt-3.5-turbo"  gpt-4o
+  chunk_size: 512
+  chunk_overlap: 24 
+  max_tokens: 512
+  temperature: 0.7
+graph:
+  NEO4J_URI: "bolt://localhost:7687"
+evaluation:
+  performance_metrics: ["accuracy", "precision", "recall", "f1_score"]
+  health_metrics: ["data_quality", "model_drift", "latency"]
+augmentation:
+  query: true
+  context_ranking: true
+ci_cd:
+  enabled: true
+  linting: true
+  formatting: true
+  static_analysis: true
+  testing: true
+  deployment: true
+  docker_image: "your_docker_image_name"
+  docker_registry: "your_docker_registry_url"
