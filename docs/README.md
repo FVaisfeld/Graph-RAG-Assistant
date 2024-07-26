@@ -1,7 +1,7 @@
 # Graph RAG Application for Efficient Knowledge Retrieval from User-Defined Sources
 
 <p align="center">
-  <img src="../images/GRAPH_RAG_frontend.png" alt="graph-rag" width="500"/>
+  <img src="../images/GRAPH_RAG_frontend.png" alt="graph-rag" width="1000"/>
 </p>
 
 ## Introduction
